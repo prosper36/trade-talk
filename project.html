@@ -6,6 +6,11 @@
     <body> 
         <header>
         <h1>Trade talk:Venture capitalist</h1>
+        <form method="post">
+        <label for="search">Search:<label>
+            <input type="search" name="searchField" id="search">
+            <br><br>
+            <input type="submit" value="Search">
         </header>
         <h2>Introduction:</h2>
         <p>If there is a point on which most economists agree, it is that trade among nations makes the world better off. Yet international trade can be one of the most contentious of political issues, both domestically and between governments.</p>
@@ -49,11 +54,35 @@
             <blockquote>Without question, one of the best ways to learn any skill is to study those who have already found massive success.</blockquote>
         </p>
         The ratio between a country's export prices and its import price is called <abbr title="Terms Of Trade">TOT</abbr>
+        <h2>Survey</h2>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email"/>
+        <br>
+        <p>One benefit of international trade is more job opportunities</p>
+        <label for="yes">Yes</label> 
+        <input type="radio" name="benefit-question" id="yes" value="yes"/>
+        <label for="no">No</label>
+        <input type="radio" name="benefit-question" id="no" value="no"/>
+        <br>
+        <p>What type of trade do you prefer?</p>
+        <label for="domestic">Domestic</label>
+        <input type="radio" name="prefer-question" id="domestic" value="domestic"/>
+        <label for="retail">Retail</label>
+        <input type="radio" name="prefer-question" id="retail" value="retail"/>
+        <label for="import">Import</label>
+        <input type="radio" name="prefer-question" id="import" value="import"/>
         <footer>
+            <h2>Newsletter</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="Name" id="name"/>
+            <br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email"/>
+            <input type="submit" value="submit"/>
             <p>Copyright: World Trade Organization</p>
             <p><a href="https://www.wto.org>">org</a></p>
         </footer>
-
-        </body>
+    </form>
+</body>
 
 </html>
